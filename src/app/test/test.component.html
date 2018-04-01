@@ -1,0 +1,7 @@
+<div>
+  <p class="test__root">{{ title }}</p>
+  <div>
+    <input #testInput type="text"/>
+    <button (click)="onClick($event, testInput.value)">click me</button>
+  </div>
+</div>
